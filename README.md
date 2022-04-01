@@ -9,5 +9,4 @@ It is pretty much complete but has major memory leaks
 
 Any problems with the game will most likely not be fixed as I like to laugh at my early mistakes
 
-Perhaps one day they may be fixed, but I'll make a sepearte branch for that
-
+Perhaps one day they may be fixed, but I'll make a seperate branch for that
