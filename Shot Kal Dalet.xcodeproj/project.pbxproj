@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16000E392540E4960014B538 /* OptionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16000E382540E4960014B538 /* OptionSelector.swift */; };
+		16055A79253502F900DAE54E /* Restart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16055A78253502F900DAE54E /* Restart.swift */; };
+		160D75872519A56500380C36 /* LayerChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D75862519A56500380C36 /* LayerChanger.swift */; };
+		1614F199251DCEAF00B3EB09 /* SKTank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614F198251DCEAF00B3EB09 /* SKTank.swift */; };
+		1617F96F2529B68C001BF69E /* PauseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617F96E2529B68C001BF69E /* PauseLayer.swift */; };
+		1617F9712529B6C7001BF69E /* PauseAndExit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617F9702529B6C7001BF69E /* PauseAndExit.swift */; };
+		1617F9752529B6F4001BF69E /* ExitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1617F9732529B6F4001BF69E /* ExitButton.png */; };
+		1617F9762529B6F4001BF69E /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1617F9742529B6F4001BF69E /* PauseButton.png */; };
+		1617F9782529B707001BF69E /* Backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1617F9772529B706001BF69E /* Backdrop.png */; };
+		161FEC5E25246CA4003FE108 /* ContactHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161FEC5D25246CA4003FE108 /* ContactHandler.swift */; };
+		165085A025186BB300149A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1650859F25186BB300149A72 /* AppDelegate.swift */; };
+		165085A225186BB300149A72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 165085A125186BB300149A72 /* GameScene.sks */; };
+		165085A625186BB300149A72 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165085A525186BB300149A72 /* GameScene.swift */; };
+		165085A825186BB300149A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165085A725186BB300149A72 /* ViewController.swift */; };
+		165085AA25186BB300149A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165085A925186BB300149A72 /* Assets.xcassets */; };
+		165085AD25186BB300149A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165085AB25186BB300149A72 /* Main.storyboard */; };
+		169E42DA2542D53400F8D039 /* DifficultySetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E42D92542D53400F8D039 /* DifficultySetter.swift */; };
+		169E42DC2542D54400F8D039 /* ROFSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E42DB2542D54400F8D039 /* ROFSetter.swift */; };
+		16B4D52D253D1CC100D40E6C /* RootSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B4D52C253D1CC100D40E6C /* RootSetter.swift */; };
+		16B94BEF25241D3600EC0006 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B94BEE25241D3600EC0006 /* Shell.swift */; };
+		16B94BF5252427FD00EC0006 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B94BF4252427FD00EC0006 /* Functions.swift */; };
+		16BEDAD22524557100DF568E /* Textures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEDAD12524557100DF568E /* Textures.swift */; };
+		16D5C4EB251EBBDA00E9C534 /* EnemyTank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5C4EA251EBBDA00E9C534 /* EnemyTank.swift */; };
+		16D6B7C52533052E00E635EB /* GameLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D6B7C42533052E00E635EB /* GameLayer.swift */; };
+		16E2F367251C7DAE00F8BEA8 /* SettingsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2F366251C7DAE00F8BEA8 /* SettingsLayer.swift */; };
+		16E2F369251C8D0900F8BEA8 /* LeaderboardsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2F368251C8D0900F8BEA8 /* LeaderboardsLayer.swift */; };
+		16E2F36B251C902500F8BEA8 /* MenuLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2F36A251C902500F8BEA8 /* MenuLayer.swift */; };
+		16F95BA02548D38000B2FF21 /* OptionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F95B9F2548D38000B2FF21 /* OptionGroup.swift */; };
+		16F95BA22548DF1800B2FF21 /* GameModeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F95BA12548DF1800B2FF21 /* GameModeGroup.swift */; };
+		16FE9BA9251ABE6A00C92682 /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B8D251ABE6A00C92682 /* GameBackground.png */; };
+		16FE9BAA251ABE6A00C92682 /* MenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B8E251ABE6A00C92682 /* MenuBackground.png */; };
+		16FE9BAB251ABE6A00C92682 /* BMP-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B90251ABE6A00C92682 /* BMP-1.png */; };
+		16FE9BAD251ABE6A00C92682 /* Shell.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B94251ABE6A00C92682 /* Shell.png */; };
+		16FE9BAE251ABE6A00C92682 /* MuzzleFlash.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B95251ABE6A00C92682 /* MuzzleFlash.png */; };
+		16FE9BAF251ABE6A00C92682 /* SKHull.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B96251ABE6A00C92682 /* SKHull.png */; };
+		16FE9BB0251ABE6A00C92682 /* SKTurret.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B97251ABE6A00C92682 /* SKTurret.png */; };
+		16FE9BB1251ABE6A00C92682 /* BAM!.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B9A251ABE6A00C92682 /* BAM!.png */; };
+		16FE9BB2251ABE6A00C92682 /* BANG!.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B9B251ABE6A00C92682 /* BANG!.png */; };
+		16FE9BB3251ABE6A00C92682 /* BOOM!.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B9C251ABE6A00C92682 /* BOOM!.png */; };
+		16FE9BB4251ABE6A00C92682 /* DONK!.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B9D251ABE6A00C92682 /* DONK!.png */; };
+		16FE9BB5251ABE6A00C92682 /* KA-POW!.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B9E251ABE6A00C92682 /* KA-POW!.png */; };
+		16FE9BB6251ABE6A00C92682 /* POW!.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9B9F251ABE6A00C92682 /* POW!.png */; };
+		16FE9BB7251ABE6A00C92682 /* BOING!.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9BA1251ABE6A00C92682 /* BOING!.png */; };
+		16FE9BB8251ABE6A00C92682 /* TING!.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9BA2251ABE6A00C92682 /* TING!.png */; };
+		16FE9BB9251ABE6A00C92682 /* T-54.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9BA4251ABE6A00C92682 /* T-54.png */; };
+		16FE9BBA251ABE6A00C92682 /* T-62 LeftTracked.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9BA6251ABE6A00C92682 /* T-62 LeftTracked.png */; };
+		16FE9BBB251ABE6A00C92682 /* T-62 RightTracked.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9BA7251ABE6A00C92682 /* T-62 RightTracked.png */; };
+		16FE9BBC251ABE6A00C92682 /* T-62.png in Resources */ = {isa = PBXBuildFile; fileRef = 16FE9BA8251ABE6A00C92682 /* T-62.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16000E382540E4960014B538 /* OptionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelector.swift; sourceTree = "<group>"; };
+		16055A78253502F900DAE54E /* Restart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restart.swift; sourceTree = "<group>"; };
+		160D75862519A56500380C36 /* LayerChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerChanger.swift; sourceTree = "<group>"; };
+		1614F198251DCEAF00B3EB09 /* SKTank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTank.swift; sourceTree = "<group>"; };
+		1617F96E2529B68C001BF69E /* PauseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseLayer.swift; sourceTree = "<group>"; };
+		1617F9702529B6C7001BF69E /* PauseAndExit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseAndExit.swift; sourceTree = "<group>"; };
+		1617F9732529B6F4001BF69E /* ExitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExitButton.png; sourceTree = "<group>"; };
+		1617F9742529B6F4001BF69E /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		1617F9772529B706001BF69E /* Backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Backdrop.png; sourceTree = "<group>"; };
+		161FEC5D25246CA4003FE108 /* ContactHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHandler.swift; sourceTree = "<group>"; };
+		1650859C25186BB300149A72 /* Shot Kal Dalet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shot Kal Dalet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1650859F25186BB300149A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		165085A125186BB300149A72 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		165085A525186BB300149A72 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		165085A725186BB300149A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		165085A925186BB300149A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		165085AC25186BB300149A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		165085AE25186BB300149A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165085AF25186BB300149A72 /* Sho_t_Kal_Dalet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sho_t_Kal_Dalet.entitlements; sourceTree = "<group>"; };
+		169E42D92542D53400F8D039 /* DifficultySetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultySetter.swift; sourceTree = "<group>"; };
+		169E42DB2542D54400F8D039 /* ROFSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROFSetter.swift; sourceTree = "<group>"; };
+		16B4D52C253D1CC100D40E6C /* RootSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSetter.swift; sourceTree = "<group>"; };
+		16B94BEE25241D3600EC0006 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		16B94BF4252427FD00EC0006 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		16BEDAD12524557100DF568E /* Textures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textures.swift; sourceTree = "<group>"; };
+		16D5C4EA251EBBDA00E9C534 /* EnemyTank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyTank.swift; sourceTree = "<group>"; };
+		16D6B7C42533052E00E635EB /* GameLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLayer.swift; sourceTree = "<group>"; };
+		16E2F366251C7DAE00F8BEA8 /* SettingsLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLayer.swift; sourceTree = "<group>"; };
+		16E2F368251C8D0900F8BEA8 /* LeaderboardsLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardsLayer.swift; sourceTree = "<group>"; };
+		16E2F36A251C902500F8BEA8 /* MenuLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLayer.swift; sourceTree = "<group>"; };
+		16F95B9F2548D38000B2FF21 /* OptionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionGroup.swift; sourceTree = "<group>"; };
+		16F95BA12548DF1800B2FF21 /* GameModeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeGroup.swift; sourceTree = "<group>"; };
+		16FE9B8D251ABE6A00C92682 /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
+		16FE9B8E251ABE6A00C92682 /* MenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackground.png; sourceTree = "<group>"; };
+		16FE9B90251ABE6A00C92682 /* BMP-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMP-1.png"; sourceTree = "<group>"; };
+		16FE9B94251ABE6A00C92682 /* Shell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shell.png; sourceTree = "<group>"; };
+		16FE9B95251ABE6A00C92682 /* MuzzleFlash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MuzzleFlash.png; sourceTree = "<group>"; };
+		16FE9B96251ABE6A00C92682 /* SKHull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SKHull.png; sourceTree = "<group>"; };
+		16FE9B97251ABE6A00C92682 /* SKTurret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SKTurret.png; sourceTree = "<group>"; };
+		16FE9B9A251ABE6A00C92682 /* BAM!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BAM!.png"; sourceTree = "<group>"; };
+		16FE9B9B251ABE6A00C92682 /* BANG!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BANG!.png"; sourceTree = "<group>"; };
+		16FE9B9C251ABE6A00C92682 /* BOOM!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BOOM!.png"; sourceTree = "<group>"; };
+		16FE9B9D251ABE6A00C92682 /* DONK!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DONK!.png"; sourceTree = "<group>"; };
+		16FE9B9E251ABE6A00C92682 /* KA-POW!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KA-POW!.png"; sourceTree = "<group>"; };
+		16FE9B9F251ABE6A00C92682 /* POW!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "POW!.png"; sourceTree = "<group>"; };
+		16FE9BA1251ABE6A00C92682 /* BOING!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BOING!.png"; sourceTree = "<group>"; };
+		16FE9BA2251ABE6A00C92682 /* TING!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TING!.png"; sourceTree = "<group>"; };
+		16FE9BA4251ABE6A00C92682 /* T-54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "T-54.png"; sourceTree = "<group>"; };
+		16FE9BA6251ABE6A00C92682 /* T-62 LeftTracked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "T-62 LeftTracked.png"; sourceTree = "<group>"; };
+		16FE9BA7251ABE6A00C92682 /* T-62 RightTracked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "T-62 RightTracked.png"; sourceTree = "<group>"; };
+		16FE9BA8251ABE6A00C92682 /* T-62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "T-62.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1650859925186BB300149A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16000E3A2540E4A50014B538 /* Option Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				16F95B9E2548D36300B2FF21 /* Option Groups */,
+				169E42D82542D51200F8D039 /* Option Setters */,
+			);
+			path = "Option Buttons";
+			sourceTree = "<group>";
+		};
+		1608CCE3251D5F9F000D3F15 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1614F198251DCEAF00B3EB09 /* SKTank.swift */,
+				16D5C4EA251EBBDA00E9C534 /* EnemyTank.swift */,
+				16B94BEE25241D3600EC0006 /* Shell.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		160D75852519A53F00380C36 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				160D75862519A56500380C36 /* LayerChanger.swift */,
+				1617F9702529B6C7001BF69E /* PauseAndExit.swift */,
+				16055A78253502F900DAE54E /* Restart.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		1617F9722529B6F4001BF69E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1617F9732529B6F4001BF69E /* ExitButton.png */,
+				1617F9742529B6F4001BF69E /* PauseButton.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		161FEC5C25246C86003FE108 /* Contact Handler */ = {
+			isa = PBXGroup;
+			children = (
+				161FEC5D25246CA4003FE108 /* ContactHandler.swift */,
+			);
+			path = "Contact Handler";
+			sourceTree = "<group>";
+		};
+		16267E972548FDE9000B2DAD /* Option Selector */ = {
+			isa = PBXGroup;
+			children = (
+				16000E382540E4960014B538 /* OptionSelector.swift */,
+			);
+			path = "Option Selector";
+			sourceTree = "<group>";
+		};
+		1650859325186BB300149A72 = {
+			isa = PBXGroup;
+			children = (
+				1650859E25186BB300149A72 /* Sho‘t Kal Dalet */,
+				1650859D25186BB300149A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1650859D25186BB300149A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1650859C25186BB300149A72 /* Shot Kal Dalet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1650859E25186BB300149A72 /* Sho‘t Kal Dalet */ = {
+			isa = PBXGroup;
+			children = (
+				1650859F25186BB300149A72 /* AppDelegate.swift */,
+				16B94BF3252427E500EC0006 /* Containment Structures */,
+				160D75852519A53F00380C36 /* Buttons */,
+				16000E3A2540E4A50014B538 /* Option Buttons */,
+				16E2F365251C7D9400F8BEA8 /* Layers */,
+				1608CCE3251D5F9F000D3F15 /* Entities */,
+				161FEC5C25246C86003FE108 /* Contact Handler */,
+				1673B96425197B9200976788 /* GameScene and ViewController */,
+				165085A925186BB300149A72 /* Assets.xcassets */,
+				16FE9B8B251ABE6A00C92682 /* Sho't Kal Dalet Assets */,
+				165085AB25186BB300149A72 /* Main.storyboard */,
+				165085AE25186BB300149A72 /* Info.plist */,
+				165085AF25186BB300149A72 /* Sho_t_Kal_Dalet.entitlements */,
+			);
+			path = "Sho‘t Kal Dalet";
+			sourceTree = "<group>";
+		};
+		1673B96425197B9200976788 /* GameScene and ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				165085A125186BB300149A72 /* GameScene.sks */,
+				165085A525186BB300149A72 /* GameScene.swift */,
+				165085A725186BB300149A72 /* ViewController.swift */,
+			);
+			path = "GameScene and ViewController";
+			sourceTree = "<group>";
+		};
+		169E42D82542D51200F8D039 /* Option Setters */ = {
+			isa = PBXGroup;
+			children = (
+				16B4D52C253D1CC100D40E6C /* RootSetter.swift */,
+				169E42D92542D53400F8D039 /* DifficultySetter.swift */,
+				169E42DB2542D54400F8D039 /* ROFSetter.swift */,
+				16267E972548FDE9000B2DAD /* Option Selector */,
+			);
+			path = "Option Setters";
+			sourceTree = "<group>";
+		};
+		16B94BF3252427E500EC0006 /* Containment Structures */ = {
+			isa = PBXGroup;
+			children = (
+				16BEDAD12524557100DF568E /* Textures.swift */,
+				16B94BF4252427FD00EC0006 /* Functions.swift */,
+			);
+			path = "Containment Structures";
+			sourceTree = "<group>";
+		};
+		16E2F365251C7D9400F8BEA8 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				16E2F36A251C902500F8BEA8 /* MenuLayer.swift */,
+				16E2F366251C7DAE00F8BEA8 /* SettingsLayer.swift */,
+				16E2F368251C8D0900F8BEA8 /* LeaderboardsLayer.swift */,
+				16D6B7C42533052E00E635EB /* GameLayer.swift */,
+				1617F96E2529B68C001BF69E /* PauseLayer.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		16F95B9E2548D36300B2FF21 /* Option Groups */ = {
+			isa = PBXGroup;
+			children = (
+				16F95B9F2548D38000B2FF21 /* OptionGroup.swift */,
+				16F95BA12548DF1800B2FF21 /* GameModeGroup.swift */,
+			);
+			path = "Option Groups";
+			sourceTree = "<group>";
+		};
+		16FE9B8B251ABE6A00C92682 /* Sho't Kal Dalet Assets */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9B93251ABE6A00C92682 /* Sho't Kal Tank */,
+				16FE9BA3251ABE6A00C92682 /* T-54 MBT */,
+				16FE9BA5251ABE6A00C92682 /* T-62 MBT */,
+				16FE9B8F251ABE6A00C92682 /* BMP-1 Light Tank */,
+				16FE9B8C251ABE6A00C92682 /* Backgrounds and Backdrops */,
+				1617F9722529B6F4001BF69E /* Buttons */,
+				16FE9B98251ABE6A00C92682 /* Sound Effects */,
+			);
+			path = "Sho't Kal Dalet Assets";
+			sourceTree = "<group>";
+		};
+		16FE9B8C251ABE6A00C92682 /* Backgrounds and Backdrops */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9B8D251ABE6A00C92682 /* GameBackground.png */,
+				16FE9B8E251ABE6A00C92682 /* MenuBackground.png */,
+				1617F9772529B706001BF69E /* Backdrop.png */,
+			);
+			path = "Backgrounds and Backdrops";
+			sourceTree = "<group>";
+		};
+		16FE9B8F251ABE6A00C92682 /* BMP-1 Light Tank */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9B90251ABE6A00C92682 /* BMP-1.png */,
+			);
+			path = "BMP-1 Light Tank";
+			sourceTree = "<group>";
+		};
+		16FE9B93251ABE6A00C92682 /* Sho't Kal Tank */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9B94251ABE6A00C92682 /* Shell.png */,
+				16FE9B95251ABE6A00C92682 /* MuzzleFlash.png */,
+				16FE9B96251ABE6A00C92682 /* SKHull.png */,
+				16FE9B97251ABE6A00C92682 /* SKTurret.png */,
+			);
+			path = "Sho't Kal Tank";
+			sourceTree = "<group>";
+		};
+		16FE9B98251ABE6A00C92682 /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9B99251ABE6A00C92682 /* Explosions */,
+				16FE9BA0251ABE6A00C92682 /* Ricochets */,
+			);
+			path = "Sound Effects";
+			sourceTree = "<group>";
+		};
+		16FE9B99251ABE6A00C92682 /* Explosions */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9B9A251ABE6A00C92682 /* BAM!.png */,
+				16FE9B9B251ABE6A00C92682 /* BANG!.png */,
+				16FE9B9C251ABE6A00C92682 /* BOOM!.png */,
+				16FE9B9D251ABE6A00C92682 /* DONK!.png */,
+				16FE9B9E251ABE6A00C92682 /* KA-POW!.png */,
+				16FE9B9F251ABE6A00C92682 /* POW!.png */,
+			);
+			path = Explosions;
+			sourceTree = "<group>";
+		};
+		16FE9BA0251ABE6A00C92682 /* Ricochets */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9BA1251ABE6A00C92682 /* BOING!.png */,
+				16FE9BA2251ABE6A00C92682 /* TING!.png */,
+			);
+			path = Ricochets;
+			sourceTree = "<group>";
+		};
+		16FE9BA3251ABE6A00C92682 /* T-54 MBT */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9BA4251ABE6A00C92682 /* T-54.png */,
+			);
+			path = "T-54 MBT";
+			sourceTree = "<group>";
+		};
+		16FE9BA5251ABE6A00C92682 /* T-62 MBT */ = {
+			isa = PBXGroup;
+			children = (
+				16FE9BA6251ABE6A00C92682 /* T-62 LeftTracked.png */,
+				16FE9BA7251ABE6A00C92682 /* T-62 RightTracked.png */,
+				16FE9BA8251ABE6A00C92682 /* T-62.png */,
+			);
+			path = "T-62 MBT";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1650859B25186BB300149A72 /* Shot Kal Dalet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165085B225186BB300149A72 /* Build configuration list for PBXNativeTarget "Shot Kal Dalet" */;
+			buildPhases = (
+				1650859825186BB300149A72 /* Sources */,
+				1650859925186BB300149A72 /* Frameworks */,
+				1650859A25186BB300149A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shot Kal Dalet";
+			productName = "Sho‘t Kal Dalet";
+			productReference = 1650859C25186BB300149A72 /* Shot Kal Dalet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1650859425186BB300149A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Taennan Rickman";
+				TargetAttributes = {
+					1650859B25186BB300149A72 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1650859725186BB300149A72 /* Build configuration list for PBXProject "Shot Kal Dalet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1650859325186BB300149A72;
+			productRefGroup = 1650859D25186BB300149A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1650859B25186BB300149A72 /* Shot Kal Dalet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1650859A25186BB300149A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FE9BB3251ABE6A00C92682 /* BOOM!.png in Resources */,
+				16FE9BB6251ABE6A00C92682 /* POW!.png in Resources */,
+				16FE9BBC251ABE6A00C92682 /* T-62.png in Resources */,
+				16FE9BB1251ABE6A00C92682 /* BAM!.png in Resources */,
+				1617F9762529B6F4001BF69E /* PauseButton.png in Resources */,
+				16FE9BAE251ABE6A00C92682 /* MuzzleFlash.png in Resources */,
+				16FE9BB2251ABE6A00C92682 /* BANG!.png in Resources */,
+				16FE9BAF251ABE6A00C92682 /* SKHull.png in Resources */,
+				165085A225186BB300149A72 /* GameScene.sks in Resources */,
+				16FE9BBB251ABE6A00C92682 /* T-62 RightTracked.png in Resources */,
+				1617F9752529B6F4001BF69E /* ExitButton.png in Resources */,
+				16FE9BAB251ABE6A00C92682 /* BMP-1.png in Resources */,
+				16FE9BAD251ABE6A00C92682 /* Shell.png in Resources */,
+				16FE9BB8251ABE6A00C92682 /* TING!.png in Resources */,
+				16FE9BB9251ABE6A00C92682 /* T-54.png in Resources */,
+				16FE9BB7251ABE6A00C92682 /* BOING!.png in Resources */,
+				165085AA25186BB300149A72 /* Assets.xcassets in Resources */,
+				16FE9BB4251ABE6A00C92682 /* DONK!.png in Resources */,
+				165085AD25186BB300149A72 /* Main.storyboard in Resources */,
+				16FE9BB0251ABE6A00C92682 /* SKTurret.png in Resources */,
+				1617F9782529B707001BF69E /* Backdrop.png in Resources */,
+				16FE9BBA251ABE6A00C92682 /* T-62 LeftTracked.png in Resources */,
+				16FE9BA9251ABE6A00C92682 /* GameBackground.png in Resources */,
+				16FE9BB5251ABE6A00C92682 /* KA-POW!.png in Resources */,
+				16FE9BAA251ABE6A00C92682 /* MenuBackground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1650859825186BB300149A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1614F199251DCEAF00B3EB09 /* SKTank.swift in Sources */,
+				16D6B7C52533052E00E635EB /* GameLayer.swift in Sources */,
+				165085A825186BB300149A72 /* ViewController.swift in Sources */,
+				16B4D52D253D1CC100D40E6C /* RootSetter.swift in Sources */,
+				169E42DC2542D54400F8D039 /* ROFSetter.swift in Sources */,
+				16F95BA22548DF1800B2FF21 /* GameModeGroup.swift in Sources */,
+				16B94BEF25241D3600EC0006 /* Shell.swift in Sources */,
+				1617F9712529B6C7001BF69E /* PauseAndExit.swift in Sources */,
+				165085A625186BB300149A72 /* GameScene.swift in Sources */,
+				1617F96F2529B68C001BF69E /* PauseLayer.swift in Sources */,
+				160D75872519A56500380C36 /* LayerChanger.swift in Sources */,
+				161FEC5E25246CA4003FE108 /* ContactHandler.swift in Sources */,
+				16BEDAD22524557100DF568E /* Textures.swift in Sources */,
+				16E2F367251C7DAE00F8BEA8 /* SettingsLayer.swift in Sources */,
+				165085A025186BB300149A72 /* AppDelegate.swift in Sources */,
+				16000E392540E4960014B538 /* OptionSelector.swift in Sources */,
+				16D5C4EB251EBBDA00E9C534 /* EnemyTank.swift in Sources */,
+				169E42DA2542D53400F8D039 /* DifficultySetter.swift in Sources */,
+				16E2F369251C8D0900F8BEA8 /* LeaderboardsLayer.swift in Sources */,
+				16E2F36B251C902500F8BEA8 /* MenuLayer.swift in Sources */,
+				16B94BF5252427FD00EC0006 /* Functions.swift in Sources */,
+				16F95BA02548D38000B2FF21 /* OptionGroup.swift in Sources */,
+				16055A79253502F900DAE54E /* Restart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		165085AB25186BB300149A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165085AC25186BB300149A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		165085B025186BB300149A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		165085B125186BB300149A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		165085B325186BB300149A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sho‘t Kal Dalet/Sho_t_Kal_Dalet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sho‘t Kal Dalet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nassman-Werks.Sho-t-Kal-Dalet";
+				PRODUCT_NAME = "Shot Kal Dalet";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		165085B425186BB300149A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sho‘t Kal Dalet/Sho_t_Kal_Dalet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sho‘t Kal Dalet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nassman-Werks.Sho-t-Kal-Dalet";
+				PRODUCT_NAME = "Shot Kal Dalet";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1650859725186BB300149A72 /* Build configuration list for PBXProject "Shot Kal Dalet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165085B025186BB300149A72 /* Debug */,
+				165085B125186BB300149A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165085B225186BB300149A72 /* Build configuration list for PBXNativeTarget "Shot Kal Dalet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165085B325186BB300149A72 /* Debug */,
+				165085B425186BB300149A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1650859425186BB300149A72 /* Project object */;
+}
