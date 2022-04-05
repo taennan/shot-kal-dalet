@@ -43,4 +43,8 @@ It is unlikely that I will find time to fix any of them
 
 ### The Setting
 
-This game is very loosely based on real events that occurred between Israel and Syria a very long time ago. I chose this point in history simply because I could then give the game a cool name. The game in **no way** reflects any of my personal views about anything
+This game is very loosely based on real events that occurred between Israel and Syria a very long time ago. 
+
+I chose this point in history simply because I could then give the game a cool name. 
+
+The game in **no way** reflects any of my personal views about anything
